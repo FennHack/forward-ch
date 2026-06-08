@@ -1,26 +1,26 @@
-# 🤖 Marsha JKT48 Auto-Post Telegram Bot
+# Auto-Post Telegram Bot
 
-Bot Telegram otomatis yang memposting semua konten media Marsha JKT48 dari berbagai platform sosial media ke channel Telegram kamu — **foto, video, reels, story IG, story TikTok, dan lainnya**.
+Bot Telegram otomatis yang memposting semua konten media @BISA CUSTOM dari berbagai platform sosial media ke channel Telegram kamu — **foto, video, reels, story IG, story TikTok, dan lainnya**.
 
 ---
 
-## ✨ Fitur
+## Fitur
 
 | Platform | Posts | Stories/Live |
 |----------|-------|--------------|
-| Instagram | ✅ Foto, Video, Reels, Carousel | ✅ Story IG |
-| TikTok | ✅ Video | ✅ Story TikTok |
-| Twitter/X | ✅ Foto & Video | — |
-| Threads | ✅ Foto & Video | — |
+| Instagram | Foto, Video, Reels, Carousel | Story IG |
+| TikTok | Video | Story TikTok |
+| Twitter/X | Foto & Video | — |
+| Threads | Foto & Video | — |
 
-- 🔄 **Auto-check setiap 15 menit** via Vercel Cron
-- 🚫 **Anti-duplikat** menggunakan Upstash Redis
-- 📋 **Caption otomatis** dengan link ke post original
-- 🆓 **Gratis 100%** (Vercel free tier + RapidAPI free + Upstash free)
+-  **Auto-check setiap 15 menit** via Vercel Cron
+-  **Anti-duplikat** menggunakan Upstash Redis
+-  **Caption otomatis** dengan link ke post original
+-  **Gratis 100%** (Vercel free tier + RapidAPI free + Upstash free)
 
 ---
 
-## 🚀 Cara Deploy (Step by Step)
+##  Cara Deploy (Step by Step)
 
 ### Step 1: Buat Bot Telegram
 1. Buka Telegram → cari **@BotFather**
@@ -32,14 +32,9 @@ Bot Telegram otomatis yang memposting semua konten media Marsha JKT48 dari berba
 
 ---
 
-### Step 2: Daftar RapidAPI (Gratis)
-1. Buka [rapidapi.com](https://rapidapi.com) → daftar akun
-2. Salin **API Key** dari dashboard
-3. Subscribe ke API-API berikut (**semua ada free tier**):
-   - [instagram-scraper-api2](https://rapidapi.com/search/instagram-scraper-api2)
-   - [tiktok-scraper7](https://rapidapi.com/search/tiktok-scraper7)
-   - [twitter241](https://rapidapi.com/search/twitter241)
-   - [threads-api4](https://rapidapi.com/search/threads-api4)
+### Step 2: Daftar APIFY (Gratis)
+# Daftar gratis di https://apify.com
+# Settings → Integrations → salin API Token
 
 ---
 
@@ -112,7 +107,7 @@ Harusnya muncul:
 
 ---
 
-## ⚙️ Trigger Manual
+##  Trigger Manual
 Untuk test, bisa trigger cron manual:
 ```
 GET https://nama-project.vercel.app/api/cron
@@ -121,7 +116,7 @@ GET https://nama-project.vercel.app/api/cron
 
 ---
 
-## 📊 Jadwal Cron
+##  Jadwal Cron
 Bot dicek otomatis setiap **15 menit** oleh Vercel Cron.
 ```
 */15 * * * *
@@ -132,7 +127,7 @@ Konfigurasi ada di `vercel.json`. Bisa diubah ke:
 
 ---
 
-## 🛠️ Struktur Project
+##  Struktur Project
 ```
 marsha-jkt48-bot/
 ├── api/
@@ -156,7 +151,7 @@ marsha-jkt48-bot/
 
 ---
 
-## ❓ FAQ
+##  FAQ
 
 **Q: Bot tidak posting apa-apa?**
 - Cek `/api/status` apakah semua env vars ter-set
@@ -177,5 +172,5 @@ marsha-jkt48-bot/
 
 ---
 
-## 📝 Lisensi
+## Lisensi
 Dibuat untuk keperluan fan community. Gunakan dengan bijak.
