@@ -25,7 +25,7 @@ module.exports = {
   },
 
   // Apify (pengganti RapidAPI)
-  APIFY_TOKEN: process.env.APIFY_TOKEN || '',
+  APIFY_KEY: process.env.APIFY_KEY || '',
 
   CHECK_INTERVAL_MINUTES: parseInt(process.env.CHECK_INTERVAL_MINUTES) || 15,
   MAX_POSTS_PER_CHECK: 5,
