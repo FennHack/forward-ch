@@ -95,12 +95,12 @@ Harusnya muncul:
 ```json
 {
   "bot": "Marsha JKT48 Auto-Post Bot",
-  "status": "🟢 Running",
+  "status": " Running",
   "platforms": {
-    "instagram": "✅ Active",
-    "tiktok": "✅ Active",
-    "twitter": "✅ Active",
-    "threads": "✅ Active"
+    "instagram": " Active",
+    "tiktok": " Active",
+    "twitter": " Active",
+    "threads": " Active"
   }
 }
 ```
